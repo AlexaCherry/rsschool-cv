@@ -1,7 +1,17 @@
-.body {
-    margin: 2;
-    padding: 0;
-    border: none;
+body {
+    background-color: #e5e5e5;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 110%;
+}
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 760px;
+    background-color: white;
+}
+.border-gradient {
+    padding: 0.5em 2em 2em;
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(#7102ff, #f83939);
 }
