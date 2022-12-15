@@ -1,7 +1,68 @@
-.body {
-    margin: 2;
-    padding: 0;
-    border: none;
+body {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 110%;
+    background-color: #f4f4f4;
+}
+h2 {
+    background-color: #d5e9f9;
+}
+.avatar {
+    width: 15%;
+    border-radius: 50%;
+}
+.header-gradient {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -1em -2em 2em;
+    padding: 1em;
+    background-image: linear-gradient(to right, #d5e9f9, white)
+}
+.header-text {
+    float: right;
+    text-align: center;
+}
+.full-body {
+    margin: 2em auto;
+    padding: 1em 2em 2em;
+    width: 75%;
+    border: 6px solid #0000;
+    background: linear-gradient(white, white) padding-box, linear-gradient(#80b5ed, #2f55c3) border-box;
+}
+.column {
+    float: left;
+    margin-bottom: 10%;
+}
+.left-side {
+    width: 40%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.right-side {
+    width: 60%;
+    padding: 0px 20px 0px 100px;
+    box-sizing: border-box;
+}
+section {
+    padding-bottom: 1em;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0em -2em -2em;
+    padding-right: 4em;
+    width: 100%;
+    color: #2f55c3;
+    background-color: #d5e9f9;
+}
+.footer-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2f55c3;
+}
+.github {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
